@@ -1,38 +1,36 @@
-.App {
+.welcome{
+  width: 70%;
+  background: floralwhite;
+  box-shadow: 4px 4px 12px lightgrey;
+  padding: 20px;
+  margin: 10% auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.welcome form{
+  background: azure;
+  justify-content: space-around;
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.welcome button{
+  background: lightseagreen;
+  margin-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.welcome label{
+  padding: 30px;
+}
+
+.viewsP {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 80%;
+  justify-content: space-between;
 }
-
-.App-link {
-  color: #61dafb;
+.views{
+  margin-left: 50px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.complete {
+  color: gray;
+  background-color: darkgrey;
 }

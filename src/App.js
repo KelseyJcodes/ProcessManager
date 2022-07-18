@@ -1,25 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import {EditorView} from "./Components/EditorView/EditorView";
+import {FollowerView} from "./Components/FollowerView/FollowerView";
+//import {Card, Button, Form} from 'react-bootstrap';
+// import {UserTypeForm} from "./Components/UserType/UserTypeForm";
+//import {reducer} from "./Components/Modules/reducer";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return <>
+		<div className={"viewsP"}>
+		<div className={"views"}>
+			<EditorView/>
+		</div>
+		<div className={"views"}>
+			<FollowerView/>
+		</div>
+		</div>
+	</>
 }
 
 export default App;
