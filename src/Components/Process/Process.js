@@ -35,7 +35,6 @@ export function Process(props) {
 					<Button style={{width: '100px'}} onClick={onComplete}>Complete</Button>
 				</div>
 			}
-
 		</Card>
 	)
 }

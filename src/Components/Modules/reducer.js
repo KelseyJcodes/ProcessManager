@@ -56,7 +56,6 @@ export function reducer(state = initState, action) {
 				taskList: state.taskList.map((task) => {
 					if (task.id === action.task.id) {
 						return action.task
-
 					}
 					return task
 				})
